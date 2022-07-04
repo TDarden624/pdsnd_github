@@ -1,0 +1,7 @@
+#referencing a knowledge question helped me with the below: https://knowledge.udacity.com/questions/55524
+ # Display counts of gender
+ if 'gender' in df.columns:
+     user_gender = df['Gender'].value_counts()
+     print("The types of user by 'Gender' are:\n", user_gender)
+ else:
+     print('Please reenter your input')
