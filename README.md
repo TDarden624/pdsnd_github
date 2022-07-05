@@ -12,7 +12,6 @@ My project runs a code that gives users options on filtering data to find out wh
 ### Files used
 bikeshare_2.py
 bikeshare_2.txt
-bikeshare_2.zip
 chicago.csv
 new_york_city.csv
 washington.csv

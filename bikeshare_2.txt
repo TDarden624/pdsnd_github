@@ -5,3 +5,11 @@
      print("The types of user by 'Gender' are:\n", user_gender)
  else:
      print('Please reenter your input')
+
+  #referencing a reddit post which helped me with the below: https://www.reddit.com/r/learnpython/comments/7s99rk/pandas_sort_by_most_frequent_value_combinations/
+  #
+  pop_combo_station = df.groupby(['Start Station', 'End Station']).size().idxmax()
+    print('\nThe most common combination station of start and end trip:', pop_combo_station)
+
+    print("\nThis took %s seconds." % (time.time() - start_time))
+    print('-'*40)
